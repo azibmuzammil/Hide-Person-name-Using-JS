@@ -1,0 +1,208 @@
+body {
+    background-color: black;
+    font-size: 16px;
+}
+
+.list {
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+#first {
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+#second {
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 20%;
+    text-align: center;
+    color: white
+}
+
+#third {
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 20%;
+    text-align: center;
+    color: white
+}
+
+#forth {
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 20%;
+    text-align: center;
+    color: white
+}
+
+#fifth {
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 20%;
+    text-align: center;
+    color: white
+}
+
+#sixth {
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 20%;
+    text-align: center;
+    color: white
+}
+
+.buttons {
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#btn1 {
+    background-color: aqua;
+    padding: 10px;
+    /* display: block; */
+    font-size: 16px;
+}
+
+#btn2 {
+    background-color: red;
+    margin-left: 4%;
+    padding: 10px;
+    /* display: block; */
+    font-size: 16px;
+}
+
+#btn3 {
+    background-color: yellow;
+    margin-left: 4%;
+    padding: 10px;
+    /* display: block; */
+    font-size: 16px;
+}
+
+@media (min-width:415px) and (max-width:740px) {
+    body {
+        font-size: 10px;
+    }
+
+    .buttons {
+        display: flex;
+        margin-right: 20%;
+    }
+
+    #btn1 {
+        font-size: 10px;
+        padding: 8px;
+        text-align: center;
+
+    }
+
+    #btn2 {
+        font-size: 10px;
+        padding: 8px;
+        margin-left: 6px;
+        text-align: center;
+    }
+
+    #btn3 {
+        font-size: 10px;
+        padding: 8px;
+        margin-left: 6px;
+        text-align: center;
+    }
+
+    .list {
+        font-size: 8px;
+        position: relative;
+        right: 2%;
+    }
+
+    #first {
+        width: 25%;
+    }
+
+    #second {
+        width: 25%;
+    }
+
+    #third {
+        width: 25%;
+    }
+
+    #forth {
+        width: 25%;
+    }
+
+    #fifth {
+        width: 25%;
+    }
+
+    #sixth {
+        width: 25%;
+    }
+}
+
+@media (max-width:412px) {
+    body {
+        font-size: 8px;
+    }
+
+    .buttons {
+        display: flex;
+        margin-right: 60%;
+    }
+
+    #btn1 {
+        font-size: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #btn2 {
+        font-size: 10px;
+        padding: 10px;
+        margin-left: 6px;
+        text-align: center;
+    }
+
+    #btn3 {
+        font-size: 10px;
+        padding: 10px;
+        margin-left: 6px;
+        text-align: center;
+    }
+
+    .list {
+        font-size: 10px;
+        position: relative;
+        right: 4%;
+    }
+
+    #first {
+        width: 20%;
+    }
+
+    #second {
+        width: 20%;
+    }
+
+    #third {
+        width: 20%;
+    }
+
+    #forth {
+        width: 20%
+    }
+
+    #fifth {
+        width: 20%;
+    }
+
+    #sixth {
+        width: 20%
+    }
+}
